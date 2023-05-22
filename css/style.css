@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
+    font-weight: bolder;
+    background-color: #101010;
+    color: white;
+}
+
+h1 {
+    padding-top: 1em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header>img{
+    display:block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body img{
+    display:block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav, nav * {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    padding-bottom: 0;
+    background-color: #939393;
+}
+
+nav ul {
+        list-style-type: none;
+        display: inline-flex;
+        size: 10em;
+        margin: 0;
+        margin-bottom: 0;
+}
+
+nav ul li:first-child{ margin-left:0.15em;}
+nav ul li:first-child:hover{ background-color: #bc2311; transition:0.5s;}
+nav ul li:first-child+li:hover{ background-color: #e0c930; transition:0.5s;}
+nav ul li:first-child+li+li:hover{ background-color: #578fbd; transition:0.5s;}
+nav ul li:first-child+li+li+li:hover{ background-color: #9d0ed8; transition:0.5s;}
+nav ul li:first-child+li+li+li+li:hover{ background-color: #39ac45; transition:0.5s;}
+
+nav ul li {
+        justify-content: center;
+        width: 8em;
+        background-color: #939393;
+        color: #101010;
+        margin-right: 0.15em;
+}
+
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #101010;
+    background-image: url('/img/tunnelvision.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+
+.container {
+    font-size:xxx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
