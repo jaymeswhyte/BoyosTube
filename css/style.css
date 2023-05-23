@@ -116,3 +116,13 @@ nav ul a{
    -ms-overflow-style: none;  /* IE and Edge */
    scrollbar-width: none;  /* Firefox */
  } 
+
+ #dylan{
+    max-width: 10%;
+    opacity: 0%;
+ }
+
+ #dylan:hover{
+    opacity: 100%;
+    transition: 3s;
+ }
