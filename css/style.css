@@ -131,3 +131,9 @@ nav ul a{
     opacity: 100%;
     transition: 3s;
  }
+
+ canvas {
+    padding: 5em;
+    display: block;
+    margin: auto auto;
+}
