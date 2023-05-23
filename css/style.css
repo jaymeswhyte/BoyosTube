@@ -9,6 +9,7 @@
 }
 
 h1 {
+    font-size: 3em;
     padding-top: 1em;
     text-align: center;
     display: block;
@@ -52,6 +53,7 @@ nav ul {
 }
 
 nav ul li:first-child{ margin-left:0.15em;}
+
 nav ul li:first-child:hover{ background-color: #bc2311; transition:0.5s;}
 nav ul li:first-child+li:hover{ background-color: #e0c930; transition:0.5s;}
 nav ul li:first-child+li+li:hover{ background-color: #578fbd; transition:0.5s;}
@@ -86,3 +88,31 @@ nav ul li {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
+body p{
+    font-family: "HelveticaNeue";
+    font-weight: 20;
+    font-size: 1.5em;
+    padding: 0.5em 5em;
+}
+
+#lawyers {
+    color: gray;
+}
+
+nav ul a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #101010;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+   display: none;
+ }
+ 
+ /* Hide scrollbar for IE, Edge and Firefox */
+ * {
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+ } 
