@@ -44,8 +44,8 @@ let scrollChange = 0;
 let hudOffset = 8;
 
 // Player sprite by Brad Gilberston https://brad-gilbertson.itch.io/16bit-race-car-set
-let IMAGES = {player: "player.png", enemy : "enemy.png", obstacle : "obstacle1.png", 
-                background: "sand.png", grass1 : "grass1.png", grass2 : "grass2.png", points : "score.png"};
+let IMAGES = {player: "static/player.png", enemy : "static/enemy.png", obstacle : "static/obstacle1.png", 
+                background: "static/sand.png", grass1 : "static/grass1.png", grass2 : "static/grass2.png", points : "static/score.png"};
 
 document.addEventListener("DOMContentLoaded", init, false);
 document.addEventListener("click", restart, false);
