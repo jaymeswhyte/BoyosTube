@@ -1,3 +1,0 @@
-/protected/index.html
-
-	Basic-Auth: BOYO:5UP3RCU7
