@@ -398,6 +398,7 @@ function draw() {
 }
 
 function activate(event) {
+    event.preventDefault();
     let key = event.key;
     if (key === "ArrowLeft") {
         moveLeft = true;
